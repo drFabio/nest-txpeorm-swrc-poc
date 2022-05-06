@@ -21,7 +21,8 @@
           "keepClassNames": true
         },
         "module": {
-          "type": "commonjs"
+          "type": "commonjs",
+          "noInterop": true
         }
       }
     ]
