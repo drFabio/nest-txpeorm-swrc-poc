@@ -9,6 +9,6 @@ export class SomeEntity {
   @Column()
   name?: string;
 
-  @Column({ nullable: false, enum: SomeEnum })
+  @Column({ nullable: false, enum: SomeEnum, type: 'varchar' })
   problemField!: SomeEnum;
 }
